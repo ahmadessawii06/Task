@@ -1,9 +1,9 @@
 import type { Dispatch, SetStateAction } from "react"
 
 export type TaskItemType = {
-    task: string
-    notes: string
-    isCompleted: boolean
+    task?: string
+    notes?: string
+    isCompleted?: boolean
     id: number,
     tasks: Task[]
     setTasksList: Dispatch<SetStateAction<Task[]>>
